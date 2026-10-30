@@ -1,0 +1,26 @@
+=== Traffic summary for http_capture.pcapng ===
+Total packets: 399135
+
+Top protocols (last layer):
+  mdns      337292
+  data      19018
+  ssdp      14828
+  nbns      11253
+  arp       6965
+  tcp       3515
+  quic      1931
+  llmnr     1497
+
+HTTP (plaintext):
+  Requests by method : {'GET': 19, 'POST': 2}
+  Hosts contacted    : {'ctldl.windowsupdate.com': 1, 'www.msftconnecttest.com': 12, 'clientservices.googleapis.com': 1, 'neverssl.com': 1, 'silverbeautifulfinepoem.neverssl.com': 3, 'httpbin.org': 3}
+  Response codes     : {'304': 2, '200': 18, '301': 1, '404': 1}
+  Credentials visible in plaintext: YES
+    -> {'custname': 'random', 'custtel': '897878', 'custemail': 'abc@gmail.com', 'size': 'medium', 'topping': 'mushroom', 'delivery': '11:00', 'comments': 'Delivery should be done'}
+
+HTTPS (TLS):
+  Client Hello messages : 99
+  Servers (SNI)         : {'signaler-pa.clients6.google.com': 2, 'ssl.gstatic.com': 5, 'dns.google': 13, 'settings-win.data.microsoft.com': 3, 'optimizationguide-pa.googleapis.com': 2, 'oauthaccountmanager.googleapis.com': 2, 'safebrowsing.google.com': 4, 'silverbeautifulfinepoem.neverssl.com': 2, 'extension.femetrics.grammarly.io': 2, 'thepromise-event.standsapp.org': 4, 'colab.research.google.com': 1, 'us.search.yahoo.com': 2, 'clients4.google.com': 3, 'beacons.gcp.gvt2.com': 5, 'e2c33.gcp.gvt2.com': 2, 'b1.nel.goog': 2, 'assets-proxy.anthropic.com': 1, 'drive.google.com': 2, 'accounts.google.com': 2, 'classroom.google.com': 2, 'content-autofill.googleapis.com': 3, 'catalog.gamepass.com': 1, 'e2c63.gcp.gvt2.com': 1, 'sadownload.mcafee.com': 1, 'claude.ai': 2, 'beacons.gvt2.com': 2, 'www.google-analytics.com': 1, 'e2c27.gcp.gvt2.com': 2, 'beacons2.gvt2.com': 1, 'search-new.bitbns.com': 2}
+  Negotiated version    : {'TLS 1.3': 82, 'TLS 1.2 or older': 7}
+  Cipher suite (code)   : {'0x1302': 26, '0x1301': 56, '0xc030': 3, '0xc02f': 2, '0xc02b': 2}
+  Application data is encrypted, so no URLs or form fields are readable.
